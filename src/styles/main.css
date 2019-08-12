@@ -1,0 +1,42 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+    width: 100%;
+}
+
+.contact {
+    border: 1px solid green;
+    background-color: greenyellow;
+    color: darkblue;
+    margin: 3em 2em;
+    padding: 1em 2em;
+    box-shadow: 5px 15px 20px rgba(72, 62, 23, 0.4);
+}
+
+.contact:hover {
+    animation: jiggle 0.2s;
+    transition: .4s all ease;
+    border: 3px solid purple;
+    background-color: plum;
+}
+
+@keyframes jiggle {
+    0% {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+    33% {
+        transform: rotate(1deg) scale(1.0);
+        opacity: 0.75;
+    }
+    66% {
+        transform: rotate(-1deg) scale(1.0);
+        opacity: 0.5;
+    }
+    100% {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+}

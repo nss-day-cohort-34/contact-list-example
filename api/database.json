@@ -1,24 +1,34 @@
 {
-  "posts": [
+  "contacts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Zebulah",
+      "phoneNumber": "8675309",
+      "address": "1000 Infinity Way",
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Jenna Solis",
+      "phoneNumber": "555-1212",
+      "address": "543 Main Street",
+      "id": 2
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Steve Brownlee",
+      "phoneNumber": "6152410666",
+      "address": "1609 Appaloosa Ct",
+      "id": 3
+    },
+    {
+      "name": "Joe Shepher",
+      "phoneNumber": "8475612",
+      "address": "1002 Liverwurst Ave",
+      "id": 4
+    },
+    {
+      "name": "Brenda Long",
+      "phoneNumber": "9043120",
+      "address": "400 Snack Way",
+      "id": 5
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

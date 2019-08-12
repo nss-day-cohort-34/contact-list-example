@@ -1,4 +1,10 @@
-package-lock.json
-node_modules/
-dist/
-.DS_Store
+node_modules
+bower_components
+__pycache__
+*.pyc
+bin
+obj
+*.db
+*.sqlite3
+.vscode
+dist
